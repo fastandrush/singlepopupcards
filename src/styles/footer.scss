@@ -1,0 +1,189 @@
+@media only screen and (max-width: 600px) {
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 40px 0px 40px 0px;
+  }
+  .footerinfocontainer {
+    height: 20vh;
+  }
+  #footer-subcont {
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-header {
+    font-family: "Gideon Roman", cursive;
+    font-size: 15px;
+    text-align: center;
+
+    overflow: hidden;
+  }
+  .footer-information {
+    font-family: "Gideon Roman", cursive;
+    font-size: 12px;
+    text-align: center;
+  }
+  .footer-fbicon {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    margin-left: 3px;
+  }
+  .footer-yticon {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 40px 0px;
+  }
+  .footerinfocontainer {
+  }
+  .footer-header {
+    font-family: "Gideon Roman", cursive;
+    font-size: 20px;
+  }
+  .footer-information {
+    font-family: "Gideon Roman", cursive;
+  }
+  .footer-fbicon {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    margin-left: 3px;
+  }
+  .footer-yticon {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px 200px 0px;
+  }
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px 200px 0px;
+  }
+  #footer-subcont {
+    display: flex;
+    flex-direction: row;
+  }
+  .footerinfocontainer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-information {
+    font-family: "Gideon Roman", cursive;
+    text-align: center;
+  }
+  .footer-fbicon {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    margin-left: 3px;
+  }
+  .footer-yticon {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px 200px 0px;
+  }
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px 200px 0px;
+  }
+  #footer-subcont {
+    display: flex;
+    flex-direction: row;
+  }
+  .footerinfocontainer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-information {
+    font-family: "Gideon Roman", cursive;
+    text-align: center;
+  }
+  .footer-fbicon {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    margin-left: 3px;
+  }
+  .footer-yticon {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px 200px 0px;
+  }
+  #footer-subcont {
+    display: flex;
+    flex-direction: row;
+  }
+  .footerinfocontainer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-header {
+    font-family: "Gideon Roman", cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+  .footer-information {
+    font-family: "Gideon Roman", cursive;
+    text-align: center;
+  }
+  .footer-fbicon {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    margin-left: 3px;
+  }
+  .footer-yticon {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}

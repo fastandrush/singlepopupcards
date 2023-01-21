@@ -1,0 +1,188 @@
+//// Lazy layout - handling first responsiveness
+@media only screen and (max-width: 600px) {
+  #contactheader {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .contachheader-telephoneicon {
+    margin-left: 15px;
+  }
+  .contactheader-icon {
+    color: white;
+    font-size: 11px;
+  }
+  .pn {
+    position: relative;
+    margin-left: 2%;
+  }
+  .contactheader-info {
+    color: white;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+  #contactheader-iconscontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contactheader-socialicons {
+    color: white;
+    margin-right: 25px;
+  }
+  .fb {
+    position: relative;
+    left: 2px;
+  }
+  .yt {
+    position: relative;
+    left: -17px;
+  }
+  .em {
+    position: relative;
+    margin-top: 2%;
+  }
+  .emn {
+    position: relative;
+    margin-top: 2%;
+  }
+}
+
+////// Lazy layout - handling tablets respobsiveness
+@media only screen and (min-width: 601px) {
+  #contactheader {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .contachheader-telephoneicon {
+    margin-left: 15px;
+  }
+  .contactheader-icon {
+    color: white;
+  }
+  .contactheader-info {
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  #contactheader-iconscontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contactheader-socialicons {
+    color: white;
+    margin-right: 25px;
+  }
+  .pn {
+    margin-left: 10px;
+  }
+  .em {
+    margin-left: 20px;
+  }
+}
+
+////// Lazy layout - handling small desktop respobsiveness
+@media only screen and (min-width: 768px) {
+  #contactheader {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .contachheader-telephoneicon {
+    margin-left: 15px;
+  }
+  .contactheader-icon {
+    color: white;
+  }
+  .contactheader-info {
+    color: white;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  #contactheader-iconscontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .contactheader-socialicons {
+    color: white;
+    margin-right: 25px;
+    margin-top: 5px;
+  }
+  .fb {
+    position: relative;
+    top: 7px;
+  }
+}
+
+////// Lazy layout - handling  desktop respobsiveness
+@media only screen and (min-width: 992px) {
+  #contactheader {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .contachheader-telephoneicon {
+    margin-left: 15px;
+  }
+  .contactheader-icon {
+    color: white;
+  }
+  .contactheader-info {
+    color: white;
+    margin-left: 10px;
+  }
+  #contactheader-iconscontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contactheader-socialicons {
+    color: white;
+    margin-right: 25px;
+  }
+  .fb {
+    position: relative;
+    top: 7px;
+  }
+}
+
+////// Lazy layout - handling  extra large desktop respobsiveness
+@media only screen and (min-width: 1200px) {
+  #contactheader {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .contachheader-telephoneicon {
+    margin-left: 15px;
+  }
+  .contactheader-icon {
+    color: white;
+  }
+  .contactheader-info {
+    color: white;
+    margin-left: 10px;
+  }
+  #contactheader-iconscontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contactheader-socialicons {
+    color: white;
+    margin-right: 25px;
+  }
+  .fb {
+    position: relative;
+    top: 7px;
+  }
+}

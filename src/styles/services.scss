@@ -1,0 +1,135 @@
+@media only screen and (max-width: 600px) {
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdp {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdp {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdp {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdp {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdp {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+}

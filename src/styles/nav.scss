@@ -1,0 +1,378 @@
+@media only screen and (max-width: 600px) {
+  #nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 66);
+  }
+  #navmenu-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 66);
+  }
+  .undershopnavmenu {
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+  }
+  #mobilenav-cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #hamcont {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 27%;
+    z-index: 10;
+  }
+  .hamline {
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    height: 9%;
+  }
+  .hamline1 {
+    margin-top: 10px;
+  }
+  .hamline3 {
+    margin-top: 20px;
+  }
+  #firstnavmenu-container {
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  .mzgomezheadercontainer {
+  }
+  #mcgomezconstruction {
+    color: white;
+    margin-top: 5px;
+    font-family: "Redressed", cursive;
+    font-size: 13px;
+    text-align: center;
+  }
+  #secondnavmenu-container {
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  #dropdown-item-button {
+    position: relative;
+    color: white;
+    background: transparent;
+    border: none;
+    outline-style: none;
+    margin-top: -18px;
+  }
+  #logo {
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    width: 40%;
+    background-color: rgb(40, 40, 66);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 30%;
+  }
+  .navmenu {
+    color: white;
+    margin-left: 20px;
+    font-family: "Gideon Roman", cursive;
+    text-decoration: none;
+    user-select: none;
+    &:hover {
+      color: chocolate;
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #nav {
+    background-color: rgb(40, 40, 66);
+  }
+  #navmenu-container {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .undershopnavmenu {
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+  }
+  #mobilenav-cont1 {
+    display: none;
+  }
+  #mobilenav-cont2 {
+    display: none;
+  }
+  #firstnavmenu-container {
+    display: flex;
+    align-items: center;
+  }
+  #mcgomezconstruction {
+    color: white;
+    margin-top: 5px;
+    margin-left: 28px;
+    font-family: "Redressed", cursive;
+    font-size: 11px;
+  }
+  #secondnavmenu-container {
+    display: flex;
+    align-items: center;
+  }
+  #dropdown-item-button {
+    position: relative;
+    color: white;
+    background: transparent;
+    border: none;
+    outline-style: none;
+    margin-top: -18px;
+  }
+  #logo {
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    left: 40%;
+    width: 20%;
+    background-color: rgb(40, 40, 66);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .navmenu {
+    color: white;
+    margin-left: 20px;
+    margin-top: 4%;
+    font-family: "Gideon Roman", cursive;
+    text-decoration: none;
+    user-select: none;
+    font-size: 10px;
+    &:hover {
+      color: chocolate;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #nav {
+    background-color: rgb(40, 40, 66);
+  }
+  #navmenu-container {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .undershopnavmenu {
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+  }
+  #mobilenav-cont1 {
+    display: none;
+  }
+  #mobilenav-cont2 {
+    display: none;
+  }
+  #firstnavmenu-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  #mcgomezconstruction {
+    color: white;
+    margin-top: 5px;
+    margin-left: 16px;
+    font-size: 14px;
+    font-family: "Redressed", cursive;
+    text-align: center;
+  }
+  #secondnavmenu-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  #dropdown-item-button {
+    position: relative;
+    color: white;
+    background: transparent;
+    border: none;
+    outline-style: none;
+    margin-top: -18px;
+  }
+  #logo {
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    left: 40%;
+    width: 20%;
+    background-color: rgb(40, 40, 66);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navmenu {
+    color: white;
+    margin-left: 20px;
+    font-family: "Gideon Roman", cursive;
+    text-decoration: none;
+    user-select: none;
+    font-size: 13px;
+    margin-top: 4%;
+    &:hover {
+      color: chocolate;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #nav {
+    background-color: rgb(40, 40, 66);
+  }
+  #navmenu-container {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .undershopnavmenu {
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+  }
+  #mobilenav-cont1 {
+    display: none;
+  }
+  #mobilenav-cont2 {
+    display: none;
+  }
+  #firstnavmenu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  #mcgomezconstruction {
+    color: white;
+    margin-top: 5px;
+    margin-left: 16px;
+    font-family: "Redressed", cursive;
+  }
+  #secondnavmenu-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  #dropdown-item-button {
+    position: relative;
+    color: white;
+    background: transparent;
+    border: none;
+    outline-style: none;
+    margin-top: -18px;
+  }
+  #logo {
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    left: 40%;
+    width: 20%;
+    background-color: rgb(40, 40, 66);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .navmenu {
+    color: white;
+    margin-left: 20px;
+    font-family: "Gideon Roman", cursive;
+    text-decoration: none;
+    user-select: none;
+    font-size: 14px;
+    position: relative;
+    top: 8%;
+    &:hover {
+      color: chocolate;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #nav {
+    background-color: rgb(40, 40, 66);
+  }
+  #navmenu-container {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .undershopnavmenu {
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+  }
+  #mobilenav-cont1 {
+    display: none;
+  }
+  #mobilenav-cont2 {
+    display: none;
+  }
+  #firstnavmenu-container {
+    display: flex;
+    align-items: center;
+  }
+  .shop {
+    color: red;
+  }
+  #mcgomezconstruction {
+    color: white;
+    margin-top: 5px;
+    margin-left: 8.5px;
+    font-family: "Redressed", cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+  #secondnavmenu-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  #dropdown-item-button {
+    color: white;
+    background-color: green;
+    border: none;
+    outline-style: none;
+    margin-top: -18px;
+  }
+  #logo {
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    width: 20%;
+    background-color: rgb(40, 40, 66);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 40%;
+    width: 20%;
+  }
+  .navmenu {
+    color: white;
+    margin-left: 20px;
+    font-family: "Gideon Roman", cursive;
+    text-decoration: none;
+    user-select: none;
+    &:hover {
+      color: chocolate;
+    }
+  }
+}

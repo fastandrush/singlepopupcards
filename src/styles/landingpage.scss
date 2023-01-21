@@ -1,0 +1,926 @@
+@media only screen and (max-width: 600px) {
+  #landingpage {
+    padding: 0;
+  }
+  .constructionheaderimages {
+    height: 100%;
+    width: 100%;
+  }
+  .constructionheaderimages2 {
+    height: 100vh;
+    width: 100%;
+  }
+  #mobilenav-contentcontainer {
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease;
+  }
+  .shopnowlink {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      color: chocolate;
+    }
+  }
+  .mobilenavlinkcontainer {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid gray;
+  }
+  .mobilenavlink {
+    text-decoration: none;
+    color: black;
+    font-family: "Gideon Roman", cursive;
+  }
+  .carouseldef {
+    position: relative;
+    top: -30px;
+    font-family: "Shizuru", cursive;
+    font-size: 25px;
+    overflow: hidden;
+  }
+  #ourservices {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Gideon Roman", cursive;
+  }
+  #yearsofexperience {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Gideon Roman", cursive;
+  }
+  #ourservices-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 120px 0px 120px 0px;
+  }
+  #featuredwork {
+    position: relative;
+    background-color: rgb(49, 43, 43);
+    height: auto;
+    padding: 100px 0px 100px 0px;
+  }
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+  .servicesdps {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Gideon Roman", cursive;
+    margin-top: 20px;
+  }
+  .services-def {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Gideon Roman", cursive;
+  }
+  #featuredwork-header {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #wetakeprideinourwork {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #featuredwork-imagescontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  .fwolcontainer {
+    overflow: hidden;
+    margin-top: 2%;
+  }
+  .featuredworkdp {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+  }
+  .viewproject-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 1px solid black;
+    top: -100%;
+    left: -100%;
+    transition: 1s ease;
+  }
+  .fw-header {
+    color: white;
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  .fw-vpheader {
+    color: white;
+    margin-left: 15px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  #viewportfolio {
+    background-color: rgb(221, 221, 11);
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 50px;
+    font-family: "Gideon Roman", cursive;
+    text-decoration: none;
+    width: 27%;
+    text-align: center;
+  }
+  #projects-container {
+    position: absolute;
+    background-color: rgb(17, 38, 59);
+    height: 100vh;
+    width: 100%;
+    z-index: 20;
+    margin-top: -30px;
+    display: none;
+  }
+  #projects-closebtncontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #projects-closebtn {
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-bottom: 5px;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .carousel {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .viewprojectimage {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #landingpage {
+    padding: 0;
+  }
+  .constructionheaderimages {
+    height: 600px;
+    width: 100%;
+  }
+  #mobilenav-contentcontainer {
+    display: none;
+  }
+  .carouseldef {
+    position: relative;
+    top: -40px;
+    font-family: "Shizuru", cursive;
+    font-size: 30px;
+    overflow: hidden;
+  }
+  #ourservices {
+    text-align: center;
+    margin-top: 25%;
+    font-family: "Gideon Roman", cursive;
+  }
+  #yearsofexperience {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #ourservices-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+  }
+  #featuredwork {
+    position: relative;
+    background-color: rgb(49, 43, 43);
+    height: auto;
+    padding: 100px 0px 100px 0px;
+  }
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdps {
+    height: 120px;
+    width: 120px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: 19%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+    font-size: 15px;
+  }
+  #featuredwork-header {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #wetakeprideinourwork {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #featuredwork-imagescontainer {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fwolcontainer {
+    overflow: hidden;
+    margin-top: 2%;
+    width: 100%;
+  }
+  .featuredworkdp {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+  }
+  .viewproject-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 1px solid black;
+    top: -100%;
+    left: -100%;
+    transition: 1s ease;
+  }
+  .fw-header {
+    color: white;
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  .fw-vpheader {
+    color: white;
+    margin-left: 15px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  #viewportfolio {
+    background-color: rgb(221, 221, 11);
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 50px;
+    font-family: "Gideon Roman", cursive;
+    width: 10%;
+    text-decoration: none;
+    text-align: center;
+  }
+  #projects-container {
+    position: absolute;
+    background-color: rgb(17, 38, 59);
+    height: 100vh;
+    width: 100%;
+    z-index: 20;
+    margin-top: -30px;
+    display: none;
+  }
+  #projects-closebtncontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #projects-closebtn {
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-bottom: 5px;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .carousel {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .viewprojectimage {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #landingpage {
+    padding: 0;
+  }
+  .constructionheaderimages {
+    height: 600px;
+    width: 100%;
+  }
+  #mobilenav-contentcontainer {
+    display: none;
+  }
+  .carouseldef {
+    position: relative;
+    top: -40px;
+    font-family: "Shizuru", cursive;
+    font-size: 30px;
+    overflow: hidden;
+  }
+  #ourservices {
+    text-align: center;
+    margin-top: 15%;
+    font-family: "Gideon Roman", cursive;
+  }
+  #yearsofexperience {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #ourservices-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+  }
+  #featuredwork {
+    position: relative;
+    background-color: rgb(49, 43, 43);
+    height: auto;
+    padding: 100px 0px 100px 0px;
+  }
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdps {
+    height: 130px;
+    width: 130px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+    font-size: 22px;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+    font-size: 16px;
+  }
+  #featuredwork-header {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #wetakeprideinourwork {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #featuredwork-imagescontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  .fwolcontainer {
+    overflow: hidden;
+    margin-top: 2%;
+  }
+  .featuredworkdp {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+  }
+  .viewproject-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 1px solid black;
+    top: -100%;
+    left: -100%;
+    transition: 1s ease;
+  }
+  .fw-header {
+    color: white;
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  .fw-vpheader {
+    color: white;
+    margin-left: 15px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  #viewportfolio {
+    background-color: rgb(221, 221, 11);
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 50px;
+    font-family: "Gideon Roman", cursive;
+    width: 10%;
+    text-decoration: none;
+    text-align: center;
+  }
+  #projects-container {
+    position: absolute;
+    background-color: rgb(17, 38, 59);
+    height: 100vh;
+    width: 100%;
+    z-index: 20;
+    margin-top: -30px;
+    display: none;
+  }
+  #projects-closebtncontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #projects-closebtn {
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-bottom: 5px;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .carousel {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .viewprojectimage {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #landingpage {
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+  .constructionheaderimages {
+    height: 600px;
+    width: 100%;
+  }
+  #mobilenav-contentcontainer {
+    display: none;
+  }
+  .carouseldef {
+    position: relative;
+    top: -40px;
+    font-family: "Shizuru", cursive;
+    font-size: 30px;
+    overflow: hidden;
+  }
+  #ourservices {
+    text-align: center;
+    margin-top: 15%;
+    font-family: "Gideon Roman", cursive;
+    font-size: 30px;
+  }
+  #yearsofexperience {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+  }
+  #ourservices-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+  }
+  #featuredwork {
+    position: relative;
+    background-color: rgb(49, 43, 43);
+    height: auto;
+    padding: 100px 0px 100px 0px;
+  }
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdps {
+    height: 130px;
+    width: 130px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+    font-size: 23px;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+    font-size: 18px;
+  }
+  #featuredwork-header {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #wetakeprideinourwork {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #featuredwork-imagescontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  .fwolcontainer {
+    overflow: hidden;
+    margin-top: 2%;
+  }
+  .featuredworkdp {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+  }
+  .viewproject-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 1px solid black;
+    top: -100%;
+    left: -100%;
+    transition: 1s ease;
+  }
+  .fw-header {
+    color: white;
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  .fw-vpheader {
+    color: white;
+    margin-left: 15px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  #viewportfolio {
+    background-color: rgb(221, 221, 11);
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 50px;
+    font-family: "Gideon Roman", cursive;
+    width: 10%;
+    text-decoration: none;
+    text-align: center;
+  }
+  #projects-container {
+    position: absolute;
+    background-color: rgb(17, 38, 59);
+    height: 100vh;
+    width: 100%;
+    z-index: 20;
+    margin-top: -30px;
+    display: none;
+  }
+  #projects-closebtncontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #projects-closebtn {
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-bottom: 5px;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .carousel {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .viewprojectimage {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #landingpage {
+    padding: 0;
+  }
+  #mobilenav-contentcontainer {
+    display: none;
+  }
+  .constructionheaderimages {
+    height: 600px;
+    width: 100%;
+  }
+  .carouseldef {
+    position: relative;
+    top: -30px;
+    font-family: "Shizuru", cursive;
+    font-size: 30px;
+    overflow: hidden;
+  }
+  #ourservices {
+    text-align: center;
+    margin-top: 15%;
+    font-family: "Gideon Roman", cursive;
+    font-size: 35px;
+  }
+  #yearsofexperience {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #ourservices-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+  }
+  #featuredwork {
+    position: relative;
+    background-color: rgb(49, 43, 43);
+    height: auto;
+    padding: 100px 0px 100px 0px;
+    width: 100%;
+  }
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #services-servicesmaincontainer {
+    display: flex;
+  }
+  .servicesdps {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 37, 37);
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .services-header {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  .services-def {
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #featuredwork-header {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #wetakeprideinourwork {
+    color: white;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #featuredwork-imagescontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  .fwolcontainer {
+    overflow: hidden;
+    margin-top: 2%;
+  }
+  .featuredworkdp {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+  }
+  .viewproject-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 1px solid black;
+    top: -100%;
+    left: -100%;
+    transition: 1s ease;
+  }
+  .fw-header {
+    color: white;
+    margin-left: 10px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  .fw-vpheader {
+    color: white;
+    margin-left: 15px;
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+  #viewportfolio {
+    background-color: rgb(221, 221, 11);
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 50px;
+    width: 10%;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Gideon Roman", cursive;
+  }
+  #projects-container {
+    position: absolute;
+    background-color: rgb(17, 38, 59);
+    height: 100vh;
+    width: 100%;
+    z-index: 20;
+    margin-top: -30px;
+    display: none;
+  }
+  #projects-closebtncontainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #projects-closebtn {
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-bottom: 5px;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .carousel {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .viewprojectimage {
+    width: 700px;
+    height: 500px;
+  }
+}

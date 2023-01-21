@@ -1,0 +1,615 @@
+@media only screen and (max-width: 600px) {
+  #portfolioheader-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: red;
+  }
+  #portfolioheader-yellowbackground {
+    background-color: rgb(241, 185, 0);
+    width: 100%;
+    height: 540px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  #portfolioheader {
+    margin-left: 10px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  #gotaconcern {
+    margin-left: 20px;
+    font-size: 17px;
+  }
+  #portfolioheader-dpcontainer {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 540px;
+  }
+  #portfolioheaderdp {
+    width: 100%;
+    height: 540px;
+  }
+  #contactusfield-container {
+    display: flex;
+    flex-direction: row;
+    padding: 150px 0px 150px 0px;
+  }
+  #fieldscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactus-header {
+    font-family: "Gideon Roman", cursive;
+  }
+  .contactus-def {
+    font-family: "Gideon Roman", cursive;
+  }
+  #send-message {
+    background-color: rgb(241, 185, 0);
+    padding: 10px 35px;
+    border: none;
+  }
+  .contactus-field {
+    text-align: center;
+  }
+  .contactusmessage {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #categories-container {
+    position: relative;
+  }
+  #encapsulate-categories {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #projectcontainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .underproject-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .underprojectdp-commercial {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-all {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-construction {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .category {
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+    font-size: 12px;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #portfolioheader-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: red;
+  }
+  #portfolioheader-yellowbackground {
+    background-color: rgb(241, 185, 0);
+    width: 100%;
+    height: 540px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  #portfolioheader {
+    margin-left: 60px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  #gotaconcern {
+    margin-left: 80px;
+    font-size: 17px;
+  }
+  #portfolioheader-dpcontainer {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 540px;
+  }
+  #portfolioheaderdp {
+    width: 100%;
+    height: 540px;
+  }
+  #contactusfield-container {
+    display: flex;
+    flex-direction: row;
+    padding: 150px 0px 150px 0px;
+  }
+  #fieldscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactus-header {
+    font-family: "Gideon Roman", cursive;
+  }
+  .contactus-def {
+    font-family: "Gideon Roman", cursive;
+  }
+  #send-message {
+    background-color: rgb(241, 185, 0);
+    padding: 10px 35px;
+    border: none;
+  }
+  .contactus-field {
+    text-align: center;
+  }
+  .contactusmessage {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #categories-container {
+    position: relative;
+  }
+  #encapsulate-categories {
+    width: 65%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #projectcontainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .underproject-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .underprojectdp-commercial {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-all {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-construction {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .category {
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #portfolioheader-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: red;
+  }
+  #portfolioheader-yellowbackground {
+    background-color: rgb(241, 185, 0);
+    width: 100%;
+    height: 540px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  #portfolioheader {
+    margin-left: 60px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  #gotaconcern {
+    margin-left: 80px;
+    font-size: 17px;
+  }
+  #portfolioheader-dpcontainer {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 540px;
+  }
+  #portfolioheaderdp {
+    width: 100%;
+    height: 540px;
+  }
+  #contactusfield-container {
+    display: flex;
+    flex-direction: row;
+    padding: 150px 0px 150px 0px;
+  }
+  #fieldscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactus-header {
+    font-family: "Gideon Roman", cursive;
+  }
+  .contactus-def {
+    font-family: "Gideon Roman", cursive;
+  }
+  #send-message {
+    background-color: rgb(241, 185, 0);
+    padding: 10px 35px;
+    border: none;
+  }
+  .contactus-field {
+    text-align: center;
+  }
+  .contactusmessage {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #categories-container {
+    position: relative;
+  }
+  #encapsulate-categories {
+    width: 65%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #projectcontainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .underproject-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .underprojectdp-commercial {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-all {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-construction {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .category {
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #portfolioheader-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: red;
+  }
+  #portfolioheader-yellowbackground {
+    background-color: rgb(241, 185, 0);
+    width: 100%;
+    height: 540px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  #portfolioheader {
+    margin-left: 60px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  #gotaconcern {
+    margin-left: 80px;
+    font-size: 17px;
+  }
+  #portfolioheader-dpcontainer {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 540px;
+  }
+  #portfolioheaderdp {
+    width: 100%;
+    height: 540px;
+  }
+  #contactusfield-container {
+    display: flex;
+    flex-direction: row;
+    padding: 150px 0px 150px 0px;
+  }
+  #fieldscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactus-header {
+    font-family: "Gideon Roman", cursive;
+  }
+  .contactus-def {
+    font-family: "Gideon Roman", cursive;
+  }
+  #send-message {
+    background-color: rgb(241, 185, 0);
+    padding: 10px 35px;
+    border: none;
+  }
+  .contactus-field {
+    text-align: center;
+  }
+  .contactusmessage {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #categories-container {
+    position: relative;
+  }
+  #encapsulate-categories {
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #projectcontainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .underproject-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .underprojectdp-commercial {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-all {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-construction {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .category {
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #portfolioheader-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: red;
+  }
+  #portfolioheader-yellowbackground {
+    background-color: rgb(241, 185, 0);
+    width: 100%;
+    height: 540px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  #portfolioheader {
+    margin-left: 60px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  #gotaconcern {
+    margin-left: 80px;
+    font-size: 17px;
+  }
+  #portfolioheader-dpcontainer {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 540px;
+  }
+  #portfolioheaderdp {
+    width: 100%;
+    height: 540px;
+  }
+  #contactusfield-container {
+    display: flex;
+    flex-direction: row;
+    padding: 150px 0px 150px 0px;
+  }
+  #fieldscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactus-header {
+    font-family: "Gideon Roman", cursive;
+  }
+  .contactus-def {
+    font-family: "Gideon Roman", cursive;
+  }
+  #send-message {
+    background-color: rgb(241, 185, 0);
+    padding: 10px 35px;
+    border: none;
+  }
+  .contactus-field {
+    text-align: center;
+  }
+  .contactusmessage {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #categories-container {
+    position: relative;
+  }
+  #encapsulate-categories {
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #projectcontainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .underproject-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .underprojectdp-commercial {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-all {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .underprojectdp-construction {
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: scale(0, 0);
+    transition: 1s ease;
+  }
+  .category {
+    font-family: "Gideon Roman", cursive;
+    user-select: none;
+  }
+}
